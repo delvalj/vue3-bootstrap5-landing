@@ -3,6 +3,8 @@
   <jumbotron></jumbotron>
   <cta></cta>
   <card></card>
+  <Footer></Footer>
+
 
 </template>
 
@@ -11,6 +13,7 @@ import Navbar from './components/Navbar.vue'
 import Jumbotron from './components/Jumbotron.vue'
 import cta from './components/cta.vue'
 import card from "@/components/card";
+import Footer from "@/components/Footer";
 
 
 
@@ -20,7 +23,8 @@ export default {
     Navbar,
     Jumbotron,
     cta,
-    card
+    card,
+    Footer
   }
 }
 </script>

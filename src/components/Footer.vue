@@ -13,7 +13,6 @@
 
 export default {
   name: 'Footer',
-
 }
 </script>
 

@@ -9,16 +9,14 @@
             <img v-if="visible" src="https://picsum.photos/id/1/320/200" class="card-img-top" alt="Picsum1">
           </transition>
 
-
           <div class="card-body">
             <h5 v-if="visible" class="card-title">Hide Image</h5>
             <h5 v-if="!visible" class="card-title">Show Image</h5>
 
-
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
 
-            <button @click="visible = !visible" href="#" class="btn btn-primary">Toggle</button>
+            <button @click="visible = !visible" href="#" class="btn btn-dark">Toggle</button>
           </div>
         </div>
       </div>
@@ -37,20 +35,28 @@
               </p>
             </transition>
 
-            <button @click="mostrar = !mostrar" href="#" class="btn btn-primary">Toggle</button>
+            <button @click="mostrar = !mostrar"  class="btn btn-dark">Toggle</button>
 
           </div>
         </div>
       </div>
 
+
+
       <div class="col md-4">
         <div class="card text-center">
           <img src="https://picsum.photos/id/3/320/200" class="card-img-top" alt="Picsum1">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+
+            <transition name="bounce2" mode="in-out">
+            <h5  v-if="mostrar2" class="card-title">Card title</h5>
+            </transition>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+              content.
+            </p>
+
+            <button @click="mostrar2 = !mostrar2" class="btn btn-dark">Go somewhere</button>
+
           </div>
         </div>
       </div>
@@ -68,9 +74,9 @@ export default {
   setup() {
     const visible = ref(true);
     const mostrar = ref(true);
+    const mostrar2 = ref(true);
 
-    return {mostrar, visible};
-
+    return {mostrar, visible, mostrar2};
   },
 }
 </script>
@@ -94,6 +100,7 @@ export default {
 }
 
 
+
 .bounce-enter-active {
   animation: bounce-in 0.25s;
 }
@@ -114,5 +121,25 @@ export default {
     transform: scale(1);
   }
 
+}
+
+/*LALA*/
+
+.bounce2-enter-active {
+  animation: bounce-in .5s;
+}
+.bounce2-leave-active {
+  animation: bounce-in .5s reverse;
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: translateX(-60px);
+  }
+  50% {
+    transform: translateX(60px);
+  }
+  100% {
+    transform: translateX(0px);  }
 }
 </style>

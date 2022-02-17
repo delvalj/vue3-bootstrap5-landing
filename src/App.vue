@@ -1,14 +1,10 @@
 <template>
   <Navbar msg="This is the Navbar from Bootstrap 5"/>
   <Carousel></Carousel>
-
   <cta></cta>
   <card></card>
   <jumbotron></jumbotron>
-
   <Footer></Footer>
-
-
 </template>
 
 <script>

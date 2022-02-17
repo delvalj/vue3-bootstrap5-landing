@@ -1,8 +1,11 @@
 <template>
   <Navbar msg="This is the Navbar from Bootstrap 5"/>
-  <jumbotron></jumbotron>
+  <Carousel></Carousel>
+
   <cta></cta>
   <card></card>
+  <jumbotron></jumbotron>
+
   <Footer></Footer>
 
 
@@ -14,7 +17,7 @@ import Jumbotron from './components/Jumbotron.vue'
 import cta from './components/cta.vue'
 import card from "@/components/card";
 import Footer from "@/components/Footer";
-
+import Carousel from "@/components/Carousel";
 
 
 export default {
@@ -24,7 +27,8 @@ export default {
     Jumbotron,
     cta,
     card,
-    Footer
+    Footer,
+    Carousel
   }
 }
 </script>

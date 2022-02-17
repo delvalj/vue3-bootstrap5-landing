@@ -70,7 +70,7 @@ export default {
 
 .quoteText {
   padding: 30px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 

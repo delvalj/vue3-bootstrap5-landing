@@ -1,4 +1,5 @@
 <template>
+  <div class="fontFamily">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Navbar</a>
@@ -35,6 +36,7 @@
       </div>
     </div>
   </nav>
+  </div>
 </template>
 
 <script>
@@ -48,5 +50,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+
+ .fontFamily{
+  font-family: Oswald;
+}
 
 </style>

@@ -3,7 +3,9 @@
   <Carousel></Carousel>
   <cta></cta>
   <card></card>
+  <ShineBanner></ShineBanner>
   <jumbotron></jumbotron>
+  <ImposibleBanner></ImposibleBanner>
   <Footer></Footer>
 </template>
 
@@ -14,6 +16,8 @@ import cta from './components/cta.vue'
 import card from "@/components/card";
 import Footer from "@/components/Footer";
 import Carousel from "@/components/Carousel";
+import ImposibleBanner from "@/components/ImpossibleBanner";
+import ShineBanner from "@/components/ShineBanner";
 
 
 export default {
@@ -24,7 +28,9 @@ export default {
     cta,
     card,
     Footer,
-    Carousel
+    Carousel,
+    ImposibleBanner,
+    ShineBanner
   }
 }
 </script>

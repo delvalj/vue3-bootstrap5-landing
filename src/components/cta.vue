@@ -66,7 +66,8 @@ export default {
 .smallTitle {
   padding: 40px 10px 10px 10px;
   font-size: 15px;
-}
+
+  }
 
 .quoteText {
   padding: 30px;

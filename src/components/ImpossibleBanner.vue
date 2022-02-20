@@ -19,7 +19,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 75vh;
+  min-height: 50vh;
 }
 
 h1 {

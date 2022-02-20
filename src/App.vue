@@ -1,26 +1,43 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Navbar msg="This is the Navbar from Bootstrap 5"/>
+  <Carousel></Carousel>
+  <cta></cta>
+  <card></card>
+  <ShineBanner></ShineBanner>
+  <jumbotron></jumbotron>
+  <ImposibleBanner></ImposibleBanner>
+  <Typewriter></Typewriter>
+  <Footer></Footer>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar.vue'
+import Jumbotron from './components/Jumbotron.vue'
+import cta from './components/cta.vue'
+import card from "@/components/card";
+import Footer from "@/components/Footer";
+import Carousel from "@/components/Carousel";
+import ImposibleBanner from "@/components/ImpossibleBanner";
+import ShineBanner from "@/components/ShineBanner";
+import Typewriter from "@/components/Typewriter";
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar,
+    Jumbotron,
+    cta,
+    card,
+    Footer,
+    Carousel,
+    ImposibleBanner,
+    ShineBanner,
+    Typewriter
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

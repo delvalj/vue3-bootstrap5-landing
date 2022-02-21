@@ -7,6 +7,7 @@
   <jumbotron></jumbotron>
   <ImposibleBanner></ImposibleBanner>
   <Typewriter></Typewriter>
+  <SpoilerAlert></SpoilerAlert>
   <Footer></Footer>
 </template>
 
@@ -20,6 +21,7 @@ import Carousel from "@/components/Carousel";
 import ImposibleBanner from "@/components/ImpossibleBanner";
 import ShineBanner from "@/components/ShineBanner";
 import Typewriter from "@/components/Typewriter";
+import SpoilerAlert from "@/components/SpoilerAlert";
 
 
 export default {
@@ -33,7 +35,8 @@ export default {
     Carousel,
     ImposibleBanner,
     ShineBanner,
-    Typewriter
+    Typewriter,
+    SpoilerAlert
   }
 }
 </script>

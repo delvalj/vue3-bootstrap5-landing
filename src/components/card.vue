@@ -55,7 +55,7 @@
               content.
             </p>
 
-            <button @click="mostrar2 = !mostrar2" class="btn btn-dark">Go somewhere</button>
+            <button @click="mostrar2 = !mostrar2" class="btn btn-dark">Toggle</button>
 
           </div>
         </div>

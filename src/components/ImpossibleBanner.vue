@@ -2,13 +2,13 @@
   <body>
     <h1><span>I</span>M<span>POSSIBLE</span></h1>
   </body>
-
-
 </template>
+
 <script>
 export default {
-  name: "TextAnimations"
+  name: "ImpossibleBanner"
 }
+
 </script>
 
 <style scoped>

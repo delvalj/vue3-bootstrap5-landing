@@ -16,6 +16,10 @@ const router = createRouter({
             path: '/about',
             component: AboutPage
         },
+        // {
+        //     path: '/link',
+        //     component: AboutPage
+        // },
 
     ]
 })

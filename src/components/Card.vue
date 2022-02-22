@@ -34,14 +34,10 @@
                 content.
               </p>
             </transition>
-
             <button @click="mostrar = !mostrar"  class="btn btn-dark">Toggle</button>
-
           </div>
         </div>
       </div>
-
-
 
       <div class="col md-4">
         <div class="card text-center">
@@ -60,10 +56,7 @@
           </div>
         </div>
       </div>
-
     </div>
-
-
   </div>
 </template>
 
@@ -71,6 +64,7 @@
 import {ref} from 'vue'
 
 export default {
+  name: 'Card',
   setup() {
     const visible = ref(true);
     const mostrar = ref(true);

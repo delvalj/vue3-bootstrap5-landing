@@ -1,46 +1,44 @@
 <template>
-  <Navbar msg="This is the Navbar from Bootstrap 5"/>
-  <Carousel></Carousel>
-  <cta></cta>
-  <card></card>
-  <ShineBanner></ShineBanner>
-  <jumbotron></jumbotron>
-  <ImposibleBanner></ImposibleBanner>
-  <Typewriter></Typewriter>
-  <SpoilerAlert></SpoilerAlert>
-  <Footer></Footer>
+  <div class="conteiner">
+    <Navbar></Navbar>
+<!--    <router-link class="router-link" to="/">Card</router-link>-->
+<!--    <router-link class="router-link" to="/about">About</router-link>-->
+<!--    <router-link class="router-link" to="/cta">Cta</router-link>-->
+<!--    <router-link class="router-link" to="/carousel">Carousel</router-link>-->
+<!--    <router-view class="router-view"></router-view>-->
+    <Footer></Footer>
+  </div>
+
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue'
-import Jumbotron from './components/Jumbotron.vue'
-import cta from './components/cta.vue'
-import card from "@/components/card";
+import Navbar from '@/components/Navbar.vue'
 import Footer from "@/components/Footer";
-import Carousel from "@/components/Carousel";
-import ImposibleBanner from "@/components/ImpossibleBanner";
-import ShineBanner from "@/components/ShineBanner";
-import Typewriter from "@/components/Typewriter";
-import SpoilerAlert from "@/components/SpoilerAlert";
+
 
 
 export default {
   name: 'App',
   components: {
     Navbar,
-    Jumbotron,
-    cta,
-    card,
-    Footer,
-    Carousel,
-    ImposibleBanner,
-    ShineBanner,
-    Typewriter,
-    SpoilerAlert
+    Footer
   }
 }
 </script>
 
 <style>
 
+.conteiner {
+  min-height: 900px;
+}
+.router-link {
+  margin: 10px;
+  padding: 10px;
+  background: beige;
+  border: 1px solid black;
+}
+
+.router-view {
+  margin: 60px;
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
-  <footer class="footer py-3 bg-dark mt-5 text-center">
+  <footer class="footer py-3 bg-black text-center">
     <div class="container">
-      <span class="text-white">
+      <span class="text-grey">
           Sticky Footer Content Here Please
       </span>
     </div>

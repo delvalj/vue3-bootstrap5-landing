@@ -1,8 +1,8 @@
 <template>
   <body>
-  <div class="container">
-    <h1>Book Review </h1>
-    <p>
+  <div class="container mt-4 mb-5">
+    <h1 class="text-center text-white p-2 mt-5">East Of Eden - Book Review </h1>
+    <p class="text-white">
       «Cuando un niño comprende por primera vez a los adultos -es decir, cuando se abre paso por primera vez en su grave
       cabecita la idea de que los adultos no están dotados de una inteligencia divina, de que sus juicios no son siempre
       acertados,
@@ -16,9 +16,9 @@
       (Página 23)
     </p>
 
-    <h2>Spoiler Alert!</h2>
-    <h3>(Hover To Reveal)</h3>
-    <p class="spoiler">
+    <h2 class="pt-2 mt-5 text-white">Spoiler Alert!</h2>
+    <h3 class="text-white">(Hover To Reveal)</h3>
+    <p class="spoiler text-white">
       John Ernst Steinbeck Jr. (/ˈstaɪnbɛk/; February 27, 1902 – December 20, 1968) was an American author and the 1962
       Nobel Prize in Literature winner "for his realistic and imaginative writings, combining as they do sympathetic
       humor and keen social perception." He has been called "a giant of American letters."

@@ -5,7 +5,7 @@
     <!--    <router-link class="router-link" to="/about">About</router-link>-->
     <!--    <router-link class="router-link" to="/cta">Cta</router-link>-->
     <!--    <router-link class="router-link" to="/carousel">Carousel</router-link>-->
-    <router-view class="router-view"></router-view>
+    <router-view></router-view>
     <Footer></Footer>
   </div>
 
@@ -26,8 +26,5 @@ export default {
 
 <style>
 
-.conteiner {
-  min-height: 900px;
-}
 
 </style>

@@ -13,12 +13,11 @@ export default {
 <style scoped>
 body {
   padding: 0;
-  margin: 30px 0 30px 0;
   background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 50vh;
+  min-height: 120vh;
 }
 
 h1 {

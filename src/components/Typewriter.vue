@@ -1,8 +1,7 @@
 <template>
   <body>
-  <h1>It was a gloomy, rainy day...</h1>
+    <h1>It was a gloomy, rainy day...</h1>
   </body>
-
   <SpoilerAlert></SpoilerAlert>
 
 </template>
@@ -12,7 +11,7 @@ import SpoilerAlert from "@/components/SpoilerAlert";
 
 export default {
   name: "TypeWritting",
-  components: { SpoilerAlert}
+  components: {SpoilerAlert}
 }
 </script>
 
@@ -21,13 +20,12 @@ export default {
 
 body {
   padding: 0;
-  margin: 20px 0 20px 0;
+  margin-bottom: 0.5px;
   background-color: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 50vh;
-
+  min-height: 75vh;
 }
 
 h1 {

@@ -1,8 +1,7 @@
 <template>
   <div class="container">
     <div class="row">
-
-      <div class="col md-4 mb-2 ">
+      <div class="col md-4 mb-4 ">
         <div class="card text-center border-1 border-dark">
           <transition name="fade">
             <img v-if="visible" src="https://picsum.photos/id/999/320/200" class="card-img-top" alt="Picsum1">

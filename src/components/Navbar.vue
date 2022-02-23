@@ -15,7 +15,7 @@
               <router-link class="nav-link active" aria-current="page" to="/">Home</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/about">Impossible Banner</router-link>
+              <router-link class="nav-link" to="/impossible">Impossible Banner</router-link>
             </li>
 
             <li class="nav-item">
@@ -23,7 +23,7 @@
             </li>
 
             <li class="nav-item">
-              <router-link class="nav-link" to="/getupandshine">GetUpAndShine</router-link>
+              <router-link class="nav-link" to="/shine">GetUpAndShine</router-link>
             </li>
           </ul>
 

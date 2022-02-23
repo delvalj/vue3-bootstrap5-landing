@@ -16,8 +16,8 @@
 
             </transition>
 
-            <p class="smallTitle"> --Kanye West-- </p>
-            <button class="btn btn-light p-2" @click="mover = !mover; yeKnowledge">Get Knowledge</button>
+            <p class="smallTitle"> Kanye West </p>
+            <button class="btn btn-dark p-1" @click="mover = !mover; yeKnowledge">Go Kanye!</button>
           </div>
 
         </div>
@@ -90,5 +90,8 @@ export default {
   transition: all 1s ease;
 }
 
+button:hover{
+  background-color: #DDDDDD;
+}
 
 </style>

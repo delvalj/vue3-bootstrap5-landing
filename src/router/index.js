@@ -2,8 +2,9 @@ import {createRouter, createWebHistory} from 'vue-router'
 
 import HomePage from "@/components/HomePage";
 import AboutPage from "@/components/AboutPage";
-// import Carousel from "@/components/Carousel";
-// import cta from "@/components/cta";
+import Typewriter from "@/components/Typewriter";
+import ShineBanner from "@/components/ShineBanner";
+
 
 const router = createRouter({
     history: createWebHistory(),
@@ -16,10 +17,14 @@ const router = createRouter({
             path: '/about',
             component: AboutPage
         },
-        // {
-        //     path: '/link',
-        //     component: AboutPage
-        // },
+        {
+            path: '/about',
+            component: Typewriter
+        },
+        {
+            path: '/about',
+            component: ShineBanner
+        },
 
     ]
 })

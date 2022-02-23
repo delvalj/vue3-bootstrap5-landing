@@ -3,11 +3,16 @@
   <h1>It was a gloomy, rainy day...</h1>
   </body>
 
+  <SpoilerAlert></SpoilerAlert>
+
 </template>
 
 <script>
+import SpoilerAlert from "@/components/SpoilerAlert";
+
 export default {
-name: "TypeWritting"
+  name: "TypeWritting",
+  components: { SpoilerAlert}
 }
 </script>
 
@@ -28,12 +33,12 @@ body {
 h1 {
   font-family: "Anonymus Pro", monospace;
   font-size: 18px;
-  color: hsl(0,0%, 70%);
+  color: hsl(0, 0%, 70%);
   font-weight: bold;
-  letter-spacing:7px;
+  letter-spacing: 7px;
   cursor: pointer;
   border-right: 2px solid hsl(0, 0%, 80%);
-  animation: typewriter 5s steps(40) normal , blinkTextCursor 0.5s infinite;
+  animation: typewriter 5s steps(40) normal, blinkTextCursor 0.5s infinite;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -52,7 +57,7 @@ h1 {
     border-right-color: hsl(0, 0%, 80%);
   }
   to {
-    border-right-color: transparent ;
+    border-right-color: transparent;
   }
 }
 </style>

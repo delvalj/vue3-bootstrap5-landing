@@ -2,28 +2,24 @@
   <div class="container">
     <div class="row">
 
-      <div class="col md-4">
-        <div class="card text-center">
-
+      <div class="col md-4 mb-2 ">
+        <div class="card text-center border-1 border-dark">
           <transition name="fade">
-            <img v-if="visible" src="https://picsum.photos/id/1/320/200" class="card-img-top" alt="Picsum1">
+            <img v-if="visible" src="https://picsum.photos/id/999/320/200" class="card-img-top" alt="Picsum1">
           </transition>
-
           <div class="card-body">
             <h5 v-if="visible" class="card-title">Hide Image</h5>
             <h5 v-if="!visible" class="card-title">Show Image</h5>
-
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
-
             <button @click="visible = !visible" href="#" class="btn btn-dark">Toggle</button>
           </div>
         </div>
       </div>
 
       <div class="col md-4">
-        <div class="card text-center">
-          <img src="https://picsum.photos/id/2/320/200" class="card-img-top" alt="Picsum1">
+        <div class="card text-center border-1 border-dark">
+          <img src="https://picsum.photos/id/96/320/200" class="card-img-top" alt="Picsum1">
           <div class="card-body">
 
               <h5 class="card-title">Text</h5>
@@ -40,8 +36,8 @@
       </div>
 
       <div class="col md-4">
-        <div class="card text-center">
-          <img src="https://picsum.photos/id/3/320/200" class="card-img-top" alt="Picsum1">
+        <div class="card text-center border-1 border-dark">
+          <img src="https://picsum.photos/id/465/320/200" class="card-img-top" alt="Picsum1">
           <div class="card-body">
 
             <transition name="bounce2" mode="in-out">
@@ -52,7 +48,6 @@
             </p>
 
             <button @click="mostrar2 = !mostrar2" class="btn btn-dark">Toggle</button>
-
           </div>
         </div>
       </div>
